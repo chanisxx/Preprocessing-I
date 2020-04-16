@@ -6,14 +6,158 @@
 
   <title>My Resume</title>
 
+  <script src="https://kit.fontawesome.com/193d4651f4.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/index.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class = "container" id = "cont">
+
+    <header>
+
+      <nav>
+        <a href="#intro">Intro</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work History</a>
+        <a href="https://chanis-torres.netlify.com/">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </header>
+
+    <section class = "top">
+
+      <h1>
+        Chanis Torres
+      </h1>
+      <h2 class = "intro">Full Stack Web Developer.</h2>
+
+    </section>
+
+    <div id = "intro">
+
+      <section>
+        <h2>
+          About Me:
+        </h2>
+        <p>
+         I love to learn new things. I am currently a Lambda student for Web Development as well as a college student to learn Biotech. I entered the tech field because it reminds me of stars: Everyone works together to shine a light on something unknown. <br> Also, I like my dog.
+        </p>
+      </section>
+
+      <img class = "image" src = "snickers.png" style= "width: 13em; height: auto; transform:;">
+      
+    </div>
+
+    <section id = "skills">
+      <h2>
+       Skills:
+      </h2>
+ 
+      <div class = flex-cont>
+        <section>
+          <h2>
+            HTML
+          </h2>
+          <i class="fab fa-html5"></i>
+        </section>
+        <section>
+          <h2>
+            CSS
+          </h2>
+          <i class="fab fa-css3-alt"></i>
+        </section>
+        <section>
+          <h2>
+            JS
+          </h2>
+          <i class="fab fa-js-square"></i>
+        </section>
+      </div>
+    </section>
+
+
+    <section id = "work">
+      <h2>
+       (Dream) Work Experience:
+      </h2>
+
+      <table>
+        <tr>
+          <th>
+            Company
+          </th>
+          <th>
+            Position
+          </th>
+          <th>
+            Time Frame 
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Neuralink
+          </td>
+          <td>
+            Software Engineer for Robotics
+          </td>
+          <td>
+            5 yrs - Present
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            Esko Bionics
+          </td>
+          <td>
+            Biomedical Engineer
+          </td>
+          <td>
+            2 yrs
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            CRISPR Therapeutics
+          </td>
+          <td>
+            Process Development Engineer
+          </td>
+          <td>
+            3 yrs
+          </td>
+        </tr>
+        
+
+      </table>
+
+    </section>
+
+    <section id = "contact">
+
+      <h2> Let's get in touch. </h2>
+
+      <footer class = icons>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fas fa-envelope"></i>
+      </footer>
+
+    </section>
+
+
+  </div>
 </body>
 </html>
